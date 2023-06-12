@@ -36,3 +36,4 @@ export {default as BallCanvas } from "./canvas/Ball"
 // export {default as ComputersCanvas } from "./canvas/Computers"
 export {default as StarsCanvas } from "./canvas/Stars"
 export {default as Chats} from './chats.jsx'
+export {default as iphone} from './iphone.jsx'

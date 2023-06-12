@@ -67,7 +67,7 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             We are <span className='text-[#915EFF]'>HIRING</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p className={`text-[#dfd9ff] text-[40px] mt-2 text-white-100 text-xl`}>
             
             <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "IT Services", "Project Management", "Consultancy", "E Publications", "Digital Marketing" ]'><span className="wrap">{text}</span></span>
           </p>
@@ -75,75 +75,7 @@ const Hero = () => {
         
       </div>
       </div>
-      <div className="relative h-full w-full">
-        <img
-          src="https://images.pexels.com/photos/6476260/pexels-photo-6476260.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt="image 1"
-          className="h-full w-full object-cover opacity-50"
-        />
-        <div className={`${styles.paddingX} absolute inset-0 top-[240px] max-w-7xl mx-auto flex flex-row items-start gap-5 bg-opacity-10` }>
-        <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[#915eff]' />
-          <div className='w-1 sm:h-80 h-40 violet-gradient'/>
-        </div>
-        <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            We are <span className='text-[#915EFF]'>SNAPTRI</span>
-          </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Our Services Include <br className='sm:block hidden' /> Quality | Technology | Innovation<br className='sm:block hidden' />
-            <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "IT Services", "Project Management", "Consultancy", "E Publications", "Digital Marketing" ]'><span className="wrap">{text}</span></span>
-          </p>
-        </div>      
-        
-      </div>
-      </div>
-      <div className="relative h-full w-full">
-        <img
-          src="https://images.pexels.com/photos/6476260/pexels-photo-6476260.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt="image 1"
-          className="h-full w-full object-cover opacity-50"
-        />
-        <div className={`${styles.paddingX} absolute inset-0 top-[240px] max-w-7xl mx-auto flex flex-row items-start gap-5 bg-opacity-10` }>
-        <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[#915eff]' />
-          <div className='w-1 sm:h-80 h-40 violet-gradient'/>
-        </div>
-        <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            We are <span className='text-[#915EFF]'>SNAPTRI</span>
-          </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Our Services Include <br className='sm:block hidden' /> Quality | Technology | Innovation<br className='sm:block hidden' />
-            <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "IT Services", "Project Management", "Consultancy", "E Publications", "Digital Marketing" ]'><span className="wrap">{text}</span></span>
-          </p>
-        </div>      
-        
-      </div>
-      </div>
-      <div className="relative h-full w-full">
-        <img
-          src="https://images.pexels.com/photos/6476260/pexels-photo-6476260.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt="image 1"
-          className="h-full w-full object-cover opacity-50"
-        />
-        <div className={`${styles.paddingX} absolute inset-0 top-[240px] max-w-7xl mx-auto flex flex-row items-start gap-5 bg-opacity-10` }>
-        <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[#915eff]' />
-          <div className='w-1 sm:h-80 h-40 violet-gradient'/>
-        </div>
-        <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            We are <span className='text-[#915EFF]'>SNAPTRI</span>
-          </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Our Services Include <br className='sm:block hidden' /> Quality | Technology | Innovation<br className='sm:block hidden' />
-            <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "IT Services", "Project Management", "Consultancy", "E Publications", "Digital Marketing" ]'><span className="wrap">{text}</span></span>
-          </p>
-        </div>      
-        
-      </div>
-      </div>
+      
     </Carousel>
         
        {/* <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5 bg-opacity-10` }>

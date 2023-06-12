@@ -1,0 +1,11 @@
+Model Information:
+* title:	Iphone 14 Pro
+* source:	https://sketchfab.com/3d-models/iphone-14-pro-9eb757e57f8744748e286f4078367fec
+* author:	Tycho Magnetic Anomoly (https://sketchfab.com/CitrixStorm2222)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Iphone 14 Pro" (https://sketchfab.com/3d-models/iphone-14-pro-9eb757e57f8744748e286f4078367fec) by Tycho Magnetic Anomoly (https://sketchfab.com/CitrixStorm2222) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

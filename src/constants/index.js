@@ -134,40 +134,34 @@ import {
       ],
     },
     {
-      title: "123",
-      company_name: "456",
+      title: "Digital marketing",
+      company_name: "digital marketing",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "",
       points: [
-        "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
-        "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-        "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss.",
-        "ccccccccccccccccccccccccccccccccccccccccccccccccccccc.",
+        "Snaptri offers a wide range of digital marketing solutions tailored to meet the unique needs and goals of each client. These services include search engine optimization (SEO), pay-per-click (PPC) advertising, social media marketing, content marketing, email marketing, conversion rate optimization, and more.",
+        "Snaptri understands that every business is different, and they take the time to understand their clients' specific requirements, industry landscape, and competition. They work closely with their clients to develop customized digital marketing strategies that align with their goals and budget."
       ],
     },{
-      title: "123",
-      company_name: "456",
+      title: "Project Management",
+      company_name: "Project Management",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "",
       points: [
-        "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
-        "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-        "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss.",
-        "ccccccccccccccccccccccccccccccccccccccccccccccccccccc.",
+        "Snaptri is a trusted provider of project management services, helping businesses effectively plan, execute, and deliver successful projects. With a team of experienced project managers, Snaptri offers comprehensive solutions to streamline project workflows, enhance team collaboration, and ensure project success.",
+        "Snaptri's project management services cover various aspects of project planning, execution, monitoring, and control. They work closely with clients to understand their project goals, requirements, and constraints, developing customized strategies to achieve desired outcomes.",
       ],
     },{
-      title: "123",
-      company_name: "456",
+      title: "E publications",
+      company_name: "E publications",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "",
       points: [
-        "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
-        "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-        "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss.",
-        "ccccccccccccccccccccccccccccccccccccccccccccccccccccc.",
+       "Snaptri provides comprehensive E-publication services to businesses and individuals looking to create, distribute, and manage digital publications. With their expertise in digital content creation and distribution, Snaptri helps clients transform their content into engaging and interactive digital publications",
+       "Snaptri's E-publication services cover a wide range of digital content formats, including e-books, e-magazines, e-newsletters, whitepapers, catalogs, and more. They understand the importance of captivating and user-friendly designs, and thus, they work closely with clients to create visually appealing and immersive digital publications."
       ],
     },
   ];
@@ -243,9 +237,9 @@ import {
       source_code_link: "https://medhadiagnosticcentre.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Ocn Sys",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Ocnsys is a premier integrated marketing & communications solutions provider. Our life’s work connects people who share common beliefs.We look more like a modern management consultancy solving major problems for businesses. From marketing strategy and web experience to lead generation—even culture transformation.",
       tags: [
         {
           name: "nextjs",
