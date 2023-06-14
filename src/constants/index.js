@@ -218,7 +218,7 @@ import {
     {
       name: "Medha Diagnostic",
       description:
-        "Our website provides a comprehensive range of diagnostic services, including medical imaging, laboratory tests, and health screenings. With convenient online booking and fast turnaround times.",
+        "We provided comprehensive digital marketing services to Medha Diagnostics, boosting their online presence, brand awareness, and customer engagement through strategic website development, social media marketing, and targeted advertising.",
       tags: [
         {
           name: "react",
