@@ -26,8 +26,7 @@
 export {default as Hero } from "./Hero.jsx"
 export {default as Navbar } from "./Navbar.jsx"
 export {default as About } from "./About.jsx"
-export {default as Tech } from "./Tech.jsx"
-export {default as Experience } from "./Experience.jsx"
+export {default as Serve } from "./Serve.jsx"
 export {default as Works } from "./Works.jsx"
 export {default as Feedbacks } from "./Feedbacks.jsx"
 export {default as Contact } from "./Contact.jsx"
@@ -35,5 +34,4 @@ export {default as EarthCanvas } from "./canvas/Earth"
 export {default as BallCanvas } from "./canvas/Ball"
 // export {default as ComputersCanvas } from "./canvas/Computers"
 export {default as StarsCanvas } from "./canvas/Stars"
-export {default as Chats} from './chats.jsx'
-export {default as iphone} from './iphone.jsx'
+export {default as Home} from './Home.jsx'

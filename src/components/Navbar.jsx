@@ -2,11 +2,85 @@ import React, {useEffect, useState} from 'react'
 import { Link } from 'react-router-dom'
 
 import {styles} from '../styles.js'
-import {navLinks} from '../constants'
+import {navLinks,profileMenuItems} from '../constants'
 import {logo, menu, close} from '../assets'
+
+import {
+  
+  Typography,
+  Button,
+  Menu,
+  MenuHandler,
+  MenuList,
+  MenuItem,
+  Avatar,
+  
+} from "@material-tailwind/react";
+import {
+  ChevronDownIcon,
+  
+} from "@heroicons/react/24/outline";
+
 
 // paddingX: "sm:px-16 px-6",
 // z-20 to stay above
+
+
+
+function ProfileMenu() {
+  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const closeMenu = () => setIsMenuOpen(false);
+  const [active, setActive] = useState("");
+
+  return (
+    <Menu open={isMenuOpen} handler={setIsMenuOpen} >
+      <MenuHandler>
+        <Button
+          variant="text"
+          color="blue-gray"
+          className="flex items-center gap-1  rounded-full pt-1 pr-2 pl-0.5 lg:ml-auto capitalize"
+        >
+         <div className={`${
+              active === "Services" ? "text-white" : "text-secondary"
+            } hover:text-white text-[18px] font-medium cursor-pointer`}>Services</div>
+          <ChevronDownIcon
+            strokeWidth={2.5}
+            className={`h-3 w-3 transition-transform ${
+              isMenuOpen ? "rotate-180" : ""
+            }`}
+          />
+        </Button>
+      </MenuHandler>
+      <MenuList className="p-2 bg-primary"style={{opacity:'0.5'}} >
+        {profileMenuItems.map((nav1) => {
+          return (
+            <Link to={nav1.id}>
+              <MenuItem
+               key={nav1.label}
+              onClick={closeMenu} 
+              className={`flex text-white items-center gap-2 bg-primary`}
+            >
+              {React.createElement(nav1.icon, {
+                className: `h-4 w-4 `,
+                strokeWidth: 2,
+              })}
+              <Typography
+                as="span"
+                variant="small"
+                className="font-normal"
+                color={"inherit"}
+              >
+                {nav1.label}
+              </Typography>
+            </MenuItem>
+            </Link>
+          );
+
+        })}
+      </MenuList>
+    </Menu>
+  );
+}
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -25,7 +99,7 @@ const Navbar = () => {
           <img src={logo} alt='logo' className='w-9 h-9 object-contain'/>
           <p className='text-white-text-[18px] font-bold cursor-pointer'> Snaptri</p>
         </Link>
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className='list-none hidden lg:flex flex-row gap-10'>
           {navLinks.map((nav) => (
             <li
             key={nav.id}
@@ -34,11 +108,12 @@ const Navbar = () => {
             } hover:text-white text-[18px] font-medium cursor-pointer`}
             onClick={() => setActive(nav.title)}
           >
-            <a href={`#${nav.id}`}>{nav.title}</a>
+            <a href={`/#${nav.id}`}>{nav.title}</a>
           </li>
           ))}
+          <li><ProfileMenu/></li>
         </ul>
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <div className='lg:hidden flex flex-1 justify-end items-center'>
           <img
             src={toggle ? close : menu}
             alt='menu'
@@ -66,6 +141,7 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+                <li><ProfileMenu/></li>
             </ul>
           </div>
         </div>

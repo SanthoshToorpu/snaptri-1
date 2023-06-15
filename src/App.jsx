@@ -1,31 +1,19 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom"
-import {About, Contact, Experience, Feedbacks, Hero, Navbar,Tech, Works, StarsCanvas,Chats} from './components'
-import {useState} from 'react';
-import { Avatar } from "@material-tailwind/react";
+import { Home} from './components'
+import { DigitalMarketing, EPublications, ProjectManagement, ITServices } from "./components/submenu";
+import { Routes, Route  } from "react-router-dom";
+
 
 const App = () => {
-  const [hovered, setHovered] = useState(false);
-  
   return (
-    <BrowserRouter>
-      <div className="relative z-0 bg-primary">
-        <div className="bg-cover bg-no-repeat bg-center">
-          <Navbar/>
-          <Hero/>           
-      </div>
-      
-      <About/>
-      <Experience/>
-      {/* <Tech/> */}
-      <Works/>
-      <Feedbacks/>
-      <div className="relative z-0">
-        <Contact />
-        <StarsCanvas/> 
-      </div>
-    </div>
-    </BrowserRouter>
+    <Routes>
+//       <Route path='/' element={<Home/>} />
+//      <Route path='/digitalmarketing' element={<DigitalMarketing/>} />
+        <Route path='/epublications' element={<EPublications/>} />
+        <Route path='/projectmanagement' element={<ProjectManagement/>} />
+        <Route path='/itservices' element={<ITServices/>} />
+        
+//  </Routes>
   )
 }
 

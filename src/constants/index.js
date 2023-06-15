@@ -25,14 +25,19 @@ import {
     threejs,
   } from "../assets";
   
+  
+  import {
+    UserCircleIcon,  
+    Cog6ToothIcon,
+    InboxArrowDownIcon,
+    LifebuoyIcon,
+    PowerIcon,  
+  } from "@heroicons/react/24/outline";
+
   export const navLinks = [
     {
       id: "about",
       title: "About",
-    },
-    {
-      id: "services",
-      title: "Services",
     },
     {
       id: "projects",
@@ -48,6 +53,30 @@ import {
     },
   ];
   
+  const profileMenuItems = [
+    {
+      label: "Digital Marketing",
+      icon: UserCircleIcon,
+      id:"/digitalmarketing",
+      
+    },
+    {
+      label: "IT Services",
+      icon: Cog6ToothIcon,
+      id:"/itservices",
+    },
+    {
+      label: "Project Management",
+      icon: InboxArrowDownIcon,
+      id:"/projectmanagement",
+    },
+    {
+      label: "E Publications",
+      icon: LifebuoyIcon,
+      id:"/epublications",
+    },
+    
+  ];
   const services = [
     {
       title: "EXPLORE",
@@ -311,4 +340,4 @@ import {
       ],
     },
   ];
-  export { services, technologies, experiences, testimonials, projects,carouse };
+  export { profileMenuItems,services, technologies, experiences, testimonials, projects,carouse };
