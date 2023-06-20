@@ -61,7 +61,7 @@ const DigitalMarketing = () => {
             </ul> */}
 
           </div>
-          <img src="src\components\submenu\digital_assets\images\hero-banner.png" style={{display:"block"}} className='p-5' alt="hero banner" />
+          <img src="https://21sagestudios.com/wp-content/uploads/2022/09/hero-5.png" style={{display:"block"}} className='p-5' alt="hero banner" />
 
           {/* <figure class="hero-banner"> */}
                      {/* </figure> */}
