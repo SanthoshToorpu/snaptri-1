@@ -12,7 +12,7 @@ const DigitalMarketing = () => {
       <main>
         <article>
         <section className="section hero" id="home" aria-label="hero">
-        <div class="container">
+        <div className="container">
 
           <div className="hero-content">
 

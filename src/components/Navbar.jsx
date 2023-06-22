@@ -54,9 +54,8 @@ function ProfileMenu() {
       <MenuList className="p-2 bg-primary"style={{opacity:'0.5'}} >
         {profileMenuItems.map((nav1) => {
           return (
-            <Link to={nav1.id}>
-              <MenuItem
-               key={nav1.label}
+            <Link to={nav1.id}  key={nav1.label}>
+              <MenuItem              
               onClick={closeMenu} 
               className={`flex text-white items-center gap-2 bg-primary`}
             >
