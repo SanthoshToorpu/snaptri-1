@@ -21,15 +21,13 @@ const DigitalMarketing = () => {
             </h1>
 
             <p className="hero-text text-lg">
-              At Pixology we specialize in designing, building, shipping and scaling beautiful, usable products with
-              blazing-fast
-              efficiency
+             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa ex earum vel consectetur odio maxime dolor exercitationem ipsum magnam, saepe sit ipsa voluptas accusantium alias quidem, deserunt totam a praesentium!
             </p>
 
             <div className="wrapper">
               <a href="#" class="btn btn-primary has-before has-after">How It Works</a>
 
-              <button class="hero-btn" aria-label="pixology promo">
+              <button class="hero-btn" aria-label=" promo">
                 <ion-icon name="play-outline" aria-hidden="true"></ion-icon>
 
                 <span class="span">Behind the scenes</span>
@@ -206,7 +204,7 @@ const DigitalMarketing = () => {
                     <h3 className="h3 card-title text-4xl">Fast working process</h3>
 
                     <p className="text-black text-xl pt-5">
-                      At Pixology we specialize in designing, building, shipping and scaling beautifu.
+                      At Snaptri we specialize in designing, building, shipping and scaling beautifu.
                     </p>
                   </div>
 
@@ -224,7 +222,7 @@ const DigitalMarketing = () => {
                     <h3 className="h3 card-title text-4xl">Fast working process</h3>
 
                     <p className="text-black text-xl pt-5">
-                      At Pixology we specialize in designing, building, shipping and scaling beautifu.
+                      At lorems we specialize in designing, building, shipping and scaling beautifu.
                     </p>
                   </div>
 
@@ -242,7 +240,7 @@ const DigitalMarketing = () => {
                     <h3 className="h3 card-title text-4xl">Fast working process</h3>
 
                     <p className="text-black text-xl pt-5">
-                      At Pixology we specialize in designing, building, shipping and scaling beautifu.
+                      At loremdd we specialize in designing, building, shipping and scaling beautifu.
                     </p>
                   </div>
 
