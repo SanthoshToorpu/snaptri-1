@@ -88,7 +88,7 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   return (
     
-      <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary bg-opacity-50 `}>
+      <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-[#2b2b2b] bg-opacity-95 `}>
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link to='/' className='flex items-center gap-2'
         onClick={()=>{
@@ -131,7 +131,7 @@ const Navbar = () => {
                 <li
                   key={nav.id}
                   className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                    active === nav.title ? "text-white" : "text-secondary"
+                    active === nav.title ? "text-white" : "text-[]"
                   }`}
                   onClick={() => {
                     setToggle(!toggle);

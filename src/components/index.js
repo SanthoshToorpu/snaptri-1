@@ -30,6 +30,7 @@ export {default as Serve } from "./Serve.jsx"
 export {default as Works } from "./Works.jsx"
 export {default as Feedbacks } from "./Feedbacks.jsx"
 export {default as Contact } from "./Contact.jsx"
+export {default as Services } from "./Services.jsx"
 
 // export {default as ComputersCanvas } from "./canvas/Computers"
 export {default as Home} from './Home.jsx'

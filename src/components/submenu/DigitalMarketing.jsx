@@ -1,6 +1,10 @@
 import React from 'react'
 import Navbar from "../Navbar"
 import "./Digital_styles.css"
+import { feature, hero, serviceicon1, serviceicon2, serviceicon3, serviceicon4, serviceicon5, serviceicon6 } from './digital_assets/images'
+import { RocketSharp, PeopleSharp, HeadsetSharp } from 'react-ionicons'
+import Footer from './Footer'
+
 const DigitalMarketing = () => {
   return (
     <div>
@@ -61,7 +65,7 @@ const DigitalMarketing = () => {
             </ul> */}
 
           </div>
-          <img src="https://21sagestudios.com/wp-content/uploads/2022/09/hero-5.png" style={{display:"block"}} className='p-5' alt="hero banner" />
+          <img src={hero} style={{display:"block"}} className='p-5' alt="hero banner" />
 
           {/* <figure class="hero-banner"> */}
                      {/* </figure> */}
@@ -80,40 +84,40 @@ const DigitalMarketing = () => {
           <ul class="grid-list">
 
             <li>
-              <div class="service-card" >
-              
+              <div class="service-card" style={{color:" 174, 77%, 50%" }}>
+
                 <div class="card-icon">
-                  <img src="src\components\submenu\digital_assets\images\service-icon-1.png" width="30" height="30" loading="lazy"
+                  <img src={serviceicon1} width="30" height="30" loading="lazy"
                     alt="service icon" />
                 </div>
 
                 <h3 class="h3">
-                  <a href="#" class="card-title">Google Ads</a>
+                  <a href="#" class="card-title">Product Management</a>
                 </h3>
 
               </div>
             </li>
 
             <li>
-              <div class="service-card" >
+              <div class="service-card" style={{color:" 267, 76%, 57%" }}>
 
                 <div class="card-icon">
-                  <img src="src\components\submenu\digital_assets\images\service-icon-2.png" width="30" height="30" loading="lazy"
+                  <img src={serviceicon2} width="30" height="30" loading="lazy"
                     alt="service icon" />
                 </div>
 
                 <h3 class="h3">
-                  <a href="#" class="card-title">Search Engine Optimization</a>
+                  <a href="#" class="card-title">Web & Mobile Development</a>
                 </h3>
 
               </div>
             </li>
 
             <li>
-              <div class="service-card" >
+              <div class="service-card" style={{color:" 17, 100%, 68%" }}>
 
                 <div class="card-icon">
-                  <img src="src\components\submenu\digital_assets\images\service-icon-3.png" width="30" height="30" loading="lazy"
+                  <img src={serviceicon3} width="30" height="30" loading="lazy"
                     alt="service icon" />
                 </div>
 
@@ -125,55 +129,136 @@ const DigitalMarketing = () => {
             </li>
 
             <li>
-              <div class="service-card" >
+              <div class="service-card" style={{color:" 343, 98%, 60%" }}>
 
                 <div class="card-icon">
-                  <img src="src\components\submenu\digital_assets\images\service-icon-4.png" width="30" height="30" loading="lazy"
+                  <img src={serviceicon4} width="30" height="30" loading="lazy"
                     alt="service icon" />
                 </div>
 
                 <h3 class="h3">
-                  <a href="#" class="card-title">Data Analysis</a>
+                  <a href="#" class="card-title">Human Resources</a>
                 </h3>
 
               </div>
             </li>
 
             <li>
-              <div class="service-card" >
+              <div class="service-card" style={{color:" 210, 100%, 53" }}>
 
                 <div class="card-icon">
-                  <img src="src\components\submenu\digital_assets\images\service-icon-5.png" width="30" height="30" loading="lazy"
+                  <img src={serviceicon5} width="30" height="30" loading="lazy"
                     alt="service icon" />
                 </div>
 
                 <h3 class="h3">
-                  <a href="#" class="card-title">Social Media Marketing.</a>
+                  <a href="#" class="card-title">Design and Vreatives</a>
                 </h3>
 
               </div>
             </li>
 
             <li>
-              <div class="service-card" >
+              <div class="service-card" style={{color:" 157, 89%, 44%" }}>
 
                 <div class="card-icon">
-                  <img src="src\components\submenu\digital_assets\images\service-icon-6.png" width="30" height="30" loading="lazy"
+                  <img src={serviceicon6} width="30" height="30" loading="lazy"
                     alt="service icon" />
                 </div>
 
                 <h3 class="h3">
-                  <a href="#" class="card-title">Search Engine Marketing/Pay-per-Click.</a>
+                  <a href="#" class="card-title">Meketing and Communication</a>
                 </h3>
 
               </div>
-            </li>
+            </li>         
+
           </ul>
+
+        </div>
+      </section>
+      <section class="section feature" id="feature" aria-label="feature">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src={feature} width="582" height="585" loading="lazy" alt="feature banner"
+              class="w-100" />
+          </figure>
+
+          <div class="feature-content">
+
+            <p className="section-subtitle has-before text-4xl" >Why Choose us</p>
+
+            <h2 className="h2 section-title text-5xl">
+              Specialist in aviding clients of financial <span class="has-before">challenges</span>
+            </h2>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon" style={{color: "174, 77%, 50%"}}>
+                    <RocketSharp/>
+                  </div>
+
+                  <div>
+                    <h3 className="h3 card-title text-4xl">Fast working process</h3>
+
+                    <p className="text-black text-xl pt-5">
+                      At Pixology we specialize in designing, building, shipping and scaling beautifu.
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon" style={{color: "241, 77%, 63%"}}>
+                    <PeopleSharp />
+                  </div>
+
+                  <div>
+                    <h3 className="h3 card-title text-4xl">Fast working process</h3>
+
+                    <p className="text-black text-xl pt-5">
+                      At Pixology we specialize in designing, building, shipping and scaling beautifu.
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon" style={{color: "343, 98%, 60%"}}>
+                    <HeadsetSharp />
+                  </div>
+
+                  <div>
+                    <h3 className="h3 card-title text-4xl">Fast working process</h3>
+
+                    <p className="text-black text-xl pt-5">
+                      At Pixology we specialize in designing, building, shipping and scaling beautifu.
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
         </div>
       </section>
 
         </article>
       </main>
+      <Footer />
     </div>
   )
 }

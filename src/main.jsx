@@ -6,8 +6,6 @@ import App from './App.jsx'
 import './index.css'
 import { ThemeProvider } from "@material-tailwind/react";
 
-import Chatbot from 'react-chatbot-kit'
-import 'react-chatbot-kit/build/main.css'
 
 
 

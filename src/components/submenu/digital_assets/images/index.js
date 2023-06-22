@@ -1,0 +1,31 @@
+export {default as hero } from "./hero-banner.png"
+export {default as feature } from "./feature-banner.png"
+
+export {default as serviceicon1} from "./service-icon-1.png"
+export {default as serviceicon2} from "./service-icon-2.png"
+export {default as serviceicon3} from "./service-icon-3.png"
+export {default as serviceicon4} from "./service-icon-4.png"
+export {default as serviceicon5} from "./service-icon-5.png"
+export {default as serviceicon6} from "./service-icon-6.png"
+export {default as serviceicon7} from "./service-icon-7.png"
+
+export {default as project1} from "./project-1.jpg"
+export {default as project2} from "./project-2.jpg"
+export {default as project3} from "./project-3.jpg"
+export {default as project4} from "./project-4.jpg"
+export {default as project5} from "./project-5.jpg"
+
+export {default as instapost1} from "./insta-post-1.jpg"
+export {default as instapost2} from "./insta-post-2.jpg"
+export {default as instapost3} from "./insta-post-3.jpg"
+export {default as instapost4} from "./insta-post-4.jpg"
+export {default as instapost5} from "./insta-post-5.jpg"
+export {default as instapost6} from "./insta-post-6.jpg"
+
+export {default as blog1} from "./blog-1.jpg"
+export {default as blog2} from "./blog-2.jpg"
+export {default as blog3} from "./blog-3.png"
+export {default as blog4} from "./blog-4.png"
+
+export {default as newsbanner } from "./newsletter-banner.png"
+export {default as newsletter } from "./newsletter-bg.jpg"

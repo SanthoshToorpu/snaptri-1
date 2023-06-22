@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../Navbar'
 import ITstyles from "./ITstyles.css"
+import Footer from './Footer'
 // import { PlayCircleIcon } from "@heroicons/24/outline";
 
 
@@ -499,7 +500,7 @@ const ITServices = () => {
 
     </article>
   </main>
-
+  <Footer />
 
     </div>
   )

@@ -6,6 +6,7 @@ import {styles} from '../styles'
 import {experiences} from '../constants'
 import {SectionWrapper} from '../hoc'
 import { textVariant } from '../utils/motion'
+import Services from './Services'
 
 
 const ExperienceCard = ({experience}) => (
@@ -47,11 +48,12 @@ const Serve = () => {
       </motion.div>
 
       <div className="mt-20 flex flex-col">
-        <VerticalTimeline>
+        {/* <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard key={index} experience={experience} />
           ))}
-        </VerticalTimeline>
+        </VerticalTimeline> */}
+        <Services />
       </div>
     </>
   )
