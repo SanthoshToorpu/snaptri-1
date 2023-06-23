@@ -17,16 +17,16 @@ const ProjectManagement = () => {
 
           <div className="hero-content mt-40 md:mr-5 ">
 
-            <p className="section-subtitle md:text-md">Better Learning Future With Us</p>
+              <p className="section-subtitle lead md:text-md">Project management</p>
 
-            <h2 className="h1 hero-title md:text-7xl">Education Is About Academic Excellence</h2>
+            <h2 className="h1 hero-title md:text-7xl">Management is, above all, a practice where art, science, and craft meet.</h2>
 
             <p className="hero-text md:text-3xl">
-              Sed eu volutpat arcu, a tincidunt nulla quam, feugiat sit amet ipsum a, dapibus porta velit.
+            The only thing we manage better than projects is people
             </p>
 
             <a href="#" className="btn btn-primary">
-              <span className="span flex justify-center"><p className='text-sm'>Get Started Today</p></span>
+              <span className="span flex justify-center"><p className='text-sm'>Connect with us</p></span>
               < ArrowForwardOutline style={{color:"#ffffff", marginLeft:"10px"}}/>
             </a>
 
@@ -244,7 +244,7 @@ const ProjectManagement = () => {
 
             <p className="section-subtitle">Who We Are</p>
 
-            <h2 className="h2 section-title">We Offer The Best Carrier</h2>
+            <h2 className="h2 section-title">Why choose us?</h2>
 
             <ul className="about-list">
 
@@ -255,12 +255,7 @@ const ProjectManagement = () => {
                 </div>
 
                 <div>
-                  <h3 className="h3 item-title">Industry Expert Instructor</h3>
-
-                  <p className="item-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmoded tempor incididunt dolore magna
-                    aliqua.
-                  </p>
+                  <h3 className="h3 item-title">Industry Expert Professionals</h3>
                 </div>
 
               </li>
@@ -271,12 +266,7 @@ const ProjectManagement = () => {
                 <ArrowForwardOutline />                </div>
 
                 <div>
-                  <h3 className="h3 item-title">Up-to-Date Course Content</h3>
-
-                  <p className="item-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmoded tempor incididunt dolore magna
-                    aliqua.
-                  </p>
+                  <h3 className="h3 item-title">Good business leaders create a vision, articulate the vision</h3>
                 </div>
 
               </li>
@@ -287,12 +277,8 @@ const ProjectManagement = () => {
                 <ArrowForwardOutline />                </div>
 
                 <div>
-                  <h3 className="h3 item-title">Biggest Student Community</h3>
+                  <h3 className="h3 item-title">Technology and tools are useful, when they are your servant and not your master</h3>
 
-                  <p className="item-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmoded tempor incididunt dolore magna
-                    aliqua.
-                  </p>
                 </div>
 
               </li>
@@ -312,25 +298,22 @@ const ProjectManagement = () => {
       <section className="section cta" aria-label="workshop" >
         <div className="container">
 
-          <figure className="cta-banner">
+          <figure className="cta-banner rounded-2xl">
             <img src={ctabanner} width="580" height="380" loading="lazy" alt="cta banner"
               className="img-cover" />
           </figure>
 
           <div className="cta-content">
 
-            <p className="section-subtitle">Free Workshop</p>
-
-            <h2 className="h2 section-title">Join Our Free Workshops</h2>
+            <h2 className="h2 section-title">Plans are worthless. Planning is essential</h2>
 
             <p className="section-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit amet, consect adipi scing elit, sed do
-              eiusmod tempor
-              incididunt ut sed do eiusmod tempor incididunt ut labore et dolore aliqua.
+            Get the right people. Then no matter what all else you might do wrong after that, the people will save you.That’s what management is all about.
             </p>
 
             <a href="#" className="btn btn-secondary">
-              <span className="span">Upcomming Workshop</span>
+              <span className="span">Get in touch with us
+              </span>
 
               <ArrowForwardOutline />
             </a>
@@ -342,7 +325,7 @@ const ProjectManagement = () => {
 
         </article>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

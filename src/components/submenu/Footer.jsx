@@ -1,5 +1,6 @@
 import React from 'react'
 import { LogoFacebook, LogoInstagram, LogoTwitter, LogoYoutube } from 'react-ionicons'
+import Digitalstyles from "./Digital_styles.css"
 
 const Footer = () => {
   return (

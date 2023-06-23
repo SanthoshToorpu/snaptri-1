@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from "../Navbar"
 import "./Digital_styles.css"
 import { feature, hero, serviceicon1, serviceicon2, serviceicon3, serviceicon4, serviceicon5, serviceicon6 } from './digital_assets/images'
-import { RocketSharp, PeopleSharp, HeadsetSharp } from 'react-ionicons'
+import { RocketSharp, PeopleSharp, HeadsetSharp, PlayOutline, PhonePortrait, CallOutline, Search, LogoInstagram } from 'react-ionicons'
 import Footer from './Footer'
 
 const DigitalMarketing = () => {
@@ -21,16 +21,16 @@ const DigitalMarketing = () => {
             </h1>
 
             <p className="hero-text text-lg">
-             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa ex earum vel consectetur odio maxime dolor exercitationem ipsum magnam, saepe sit ipsa voluptas accusantium alias quidem, deserunt totam a praesentium!
+            Choose us for digital marketing because we offer a team of experienced experts who will create customized strategies tailored to your business goals. Our comprehensive services cover SEO, social media marketing, content creation, paid advertising, and email marketing, ensuring all your needs are met in one place.
             </p>
 
             <div className="wrapper">
               <a href="#" className="btn btn-primary has-before has-after">How It Works</a>
 
               <button className="hero-btn" aria-label=" promo">
-                <ion-icon name="play-outline" aria-hidden="true"></ion-icon>
+                <CallOutline />
 
-                <span className="span">Behind the scenes</span>
+                <span className="span"><p className='text-'>Contact Us</p></span>
               </button>
             </div>
 
@@ -85,14 +85,15 @@ const DigitalMarketing = () => {
               <div className="service-card" style={{color:" 174, 77%, 50%" }}>
 
                 <div className="card-icon">
-                  <img src={serviceicon1} width="30" height="30" loading="lazy"
-                    alt="service icon" />
+                  <Search />
                 </div>
 
+                <div className='flex flex-col'>
                 <h3 className="h3">
-                  <a href="#" className="card-title">Product Management</a>
+                  <a href="#" className="card-title">Search Engine Optimization (SEO)</a>
+                  <p className='text-sm pt-5 text-gray-500 font-light'> Improving website visibility and rankings on search engines through organic tactics and optimizations.</p>
                 </h3>
-
+                </div>
               </div>
             </li>
 
@@ -100,13 +101,15 @@ const DigitalMarketing = () => {
               <div className="service-card" style={{color:" 267, 76%, 57%" }}>
 
                 <div className="card-icon">
-                  <img src={serviceicon2} width="30" height="30" loading="lazy"
-                    alt="service icon" />
+                  <p className='text-xl'>$</p>
                 </div>
 
+                <div className='flex flex-col'>
                 <h3 className="h3">
-                  <a href="#" className="card-title">Web & Mobile Development</a>
+                  <a href="#" className="card-title">Pay-per-Click (PPC) Advertising</a>
+                  <p className='text-sm pt-5 text-gray-500 font-light'> Online advertising model where advertisers pay when users click on their ads.</p>
                 </h3>
+                </div>
 
               </div>
             </li>
@@ -119,9 +122,12 @@ const DigitalMarketing = () => {
                     alt="service icon" />
                 </div>
 
+                <div className='flex flex-col'>
                 <h3 className="h3">
-                  <a href="#" className="card-title">Fast Customer Support</a>
+                  <a href="#" className="card-title">Social Media Marketing</a>
+                  <p className='text-sm pt-5 text-gray-500 font-light'>  Promoting brands, products, or services through social media platforms to reach and engage target audiences</p>
                 </h3>
+                </div>
 
               </div>
             </li>
@@ -130,13 +136,15 @@ const DigitalMarketing = () => {
               <div className="service-card" style={{color:" 343, 98%, 60%" }}>
 
                 <div className="card-icon">
-                  <img src={serviceicon4} width="30" height="30" loading="lazy"
-                    alt="service icon" />
+                  <LogoInstagram />
                 </div>
 
+                <div className='flex flex-col'>
                 <h3 className="h3">
-                  <a href="#" className="card-title">Human Resources</a>
+                  <a href="#" className="card-title">Content Marketing</a>
+                  <p className='text-sm pt-5 text-gray-500 font-light'> Creating and distributing valuable, relevant, and consistent content to attract and retain a clearly defined audience.</p>
                 </h3>
+                </div>
 
               </div>
             </li>
@@ -149,9 +157,12 @@ const DigitalMarketing = () => {
                     alt="service icon" />
                 </div>
 
+                <div className='flex flex-col'>
                 <h3 className="h3">
-                  <a href="#" className="card-title">Design and Vreatives</a>
+                  <a href="#" className="card-title">Email Marketing</a>
+                  <p className='text-sm pt-5 text-gray-500 font-light'>  Sending targeted emails to a list of subscribers to promote products, services, or engage with customers.</p>
                 </h3>
+                </div>
 
               </div>
             </li>
@@ -164,9 +175,12 @@ const DigitalMarketing = () => {
                     alt="service icon" />
                 </div>
 
+                <div className='flex flex-col'>
                 <h3 className="h3">
-                  <a href="#" className="card-title">Meketing and Communication</a>
+                  <a href="#" className="card-title">Search Engine Optimization (SEO)</a>
+                  <p className='text-sm pt-5 text-gray-500 font-light'> Improving website visibility and rankings on search engines through organic tactics and optimizations.</p>
                 </h3>
+                </div>
 
               </div>
             </li>         
@@ -256,7 +270,7 @@ const DigitalMarketing = () => {
 
         </article>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

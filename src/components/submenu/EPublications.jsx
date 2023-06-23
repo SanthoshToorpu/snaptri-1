@@ -10,14 +10,14 @@ const EPublications = () => {
         <Navbar/>
         <main>
           <article>
-          <section className="section hero has-bg-image pt-0" aria-labelledby="hero-label"
+          <section className="section hero has-bg-image xl:pt-0" aria-labelledby="hero-label"
        >
         <div className="container">
 
           <div className="hero-content">
 
             <h1 className="headline-lg text-5xl" id="hero-label">
-              Better <span className="span">Learning Future</span> Starts With Youdemi
+              Better <span className="span">Ldasdasadadasda sse</span> Starts With Snodkd
             </h1>
 
             <p className="title-md has-before text-lg">
@@ -39,10 +39,10 @@ const EPublications = () => {
       <section className="section category has-bg-image" aria-labelledby="category-label">
         <div className="container">
 
-          <p className="title-sm text-center section-subtitle" id="category-label">Course Categories</p>
+          <p className="title-sm text-center section-subtitle" id="category-label">Lorem, ipsum.</p>
 
           <h2 className="headline-md text-center section-title">
-            Browse Top <span className="span has-after">Categories</span>
+            Lorem, ipsum. <span className="span has-after">lorem</span>
           </h2>
 
           <ul className="grid-list">
@@ -56,9 +56,9 @@ const EPublications = () => {
                 </div>
 
                 <div>
-                  <h3 className="title-lg">Data Science</h3>
+                  <h3 className="title-lg">Lorem, ipsum.</h3>
 
-                  <p className="title-sm">68 Courses</p>
+                  <p className="title-sm">Lorem, ipsum.</p>
                 </div>
 
                 <a href="#" className="layer-link" aria-label="Data Science Category"></a>
@@ -75,9 +75,9 @@ const EPublications = () => {
                 </div>
 
                 <div>
-                  <h3 className="title-lg">UI/UX Design</h3>
+                  <h3 className="title-lg">Lorem, ipsum.</h3>
 
-                  <p className="title-sm">68 Courses</p>
+                  <p className="title-sm">Lorem, ipsum.</p>
                 </div>
 
                 <a href="#" className="layer-link" aria-label="UI/UX Design Category"></a>
@@ -94,9 +94,9 @@ const EPublications = () => {
                 </div>
 
                 <div>
-                  <h3 className="title-lg">Modern Physics</h3>
+                  <h3 className="title-lg">Lorem, ipsum.</h3>
 
-                  <p className="title-sm">68 Courses</p>
+                  <p className="title-sm">Lorem, ipsum.</p>
                 </div>
 
                 <a href="#" className="layer-link" aria-label="Modern Physics Category"></a>
@@ -113,9 +113,9 @@ const EPublications = () => {
                 </div>
 
                 <div>
-                  <h3 className="title-lg">Music Production</h3>
+                  <h3 className="title-lg">Lorem, ipsum.</h3>
 
-                  <p className="title-sm">68 Courses</p>
+                  <p className="title-sm">Lorem, ipsum.</p>
                 </div>
 
                 <a href="#" className="layer-link" aria-label="Music Production Category"></a>
@@ -132,9 +132,9 @@ const EPublications = () => {
                 </div>
 
                 <div>
-                  <h3 className="title-lg">Data Science</h3>
+                  <h3 className="title-lg">Lorem, ipsum.</h3>
 
-                  <p className="title-sm">68 Courses</p>
+                  <p className="title-sm">Lorem, ipsum.</p>
                 </div>
 
                 <a href="#" className="layer-link" aria-label="Data Science Category"></a>
@@ -150,9 +150,9 @@ const EPublications = () => {
                 </div>
 
                 <div>
-                  <h3 className="title-lg">Finances</h3>
+                  <h3 className="title-lg">Lorem, ipsum.</h3>
 
-                  <p className="title-sm">68 Courses</p>
+                  <p className="title-sm">Lorem, ipsum.</p>
                 </div>
 
                 <a href="#" className="layer-link" aria-label="Finances Category"></a>
@@ -162,7 +162,7 @@ const EPublications = () => {
 
           </ul>
 
-          <a href="#" className="btn btn-primary">View All Categories</a>
+          <a href="#" className="btn btn-primary">Lorem, ipsum dolor.</a>
 
         </div>
       </section>
@@ -176,10 +176,10 @@ const EPublications = () => {
 
           <div className="about-content">
 
-            <p className="title-sm section-subtitle" id="about-label">About Youdemi</p>
+            <p className="title-sm section-subtitle" id="about-label">About lorem</p>
 
             <h2 className="headline-md section-title">
-              We Provide The Best Online <span className="span has-after">Education</span>
+              Lorem ipsum dolor sit amet. <span className="span has-after">lorem</span>
             </h2>
 
             <p className="title-sm section-text">
@@ -237,7 +237,7 @@ const EPublications = () => {
 
           </article>
         </main>
-        <Footer/>
+        {/* <Footer/> */}
     </div>
   )
 }
