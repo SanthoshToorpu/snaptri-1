@@ -13,7 +13,7 @@ const Earth = () => {
   return (
     <Globe
       globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
-      backgroundColor='#050816'
+      backgroundColor='#09101d'
       arcsData={arcsData}
       arcColor={'color'}
       arcDashLength={() => Math.random()}

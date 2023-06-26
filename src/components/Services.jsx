@@ -3,7 +3,7 @@ import "../components/submenu/Digital_styles.css"
 import { serviceicon1, serviceicon2, serviceicon3, serviceicon4, serviceicon5, serviceicon7 } from './submenu/digital_assets/images'
 const Services = () => {
   return (
-    <section className="section service rounded-3xl bg-tertiary" id="service" aria-label="service">
+    <section className="section service rounded-3xl bg-tertiary bg-opacity-0" id="service" aria-label="service">
         <div className="container ">
 
           <p className="section-subtitle has-before text-center">Our Services</p>

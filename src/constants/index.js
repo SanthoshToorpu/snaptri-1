@@ -266,7 +266,7 @@ import {
       source_code_link: "https://medhadiagnosticcentre.com/",
     },
     {
-      name: "Ocn Sys",
+      name: "OCNSYS",
       description:
         "Ocnsys is a premier integrated marketing & communications solutions provider. Our life’s work connects people who share common beliefs.We look more like a modern management consultancy solving major problems for businesses. From marketing strategy and web experience to lead generation—even culture transformation.",
       tags: [
