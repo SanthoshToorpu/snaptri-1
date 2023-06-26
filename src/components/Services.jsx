@@ -1,5 +1,6 @@
 import React from 'react'
 import "../components/submenu/Digital_styles.css"
+import { serviceicon1, serviceicon2, serviceicon3, serviceicon4, serviceicon5, serviceicon7 } from './submenu/digital_assets/images'
 const Services = () => {
   return (
     <section className="section service rounded-3xl bg-tertiary" id="service" aria-label="service">
@@ -16,7 +17,7 @@ const Services = () => {
               <div className="service-card bg-secondary" >
               
                 <div className="card-icon">
-                  <img src="src\components\submenu\digital_assets\images\service-icon-1.png" width="30" height="30" loading="lazy"
+                  <img src={serviceicon1} width="30" height="30" loading="lazy"
                     alt="service icon" />
                 </div>
 
@@ -31,7 +32,7 @@ const Services = () => {
               <div className="service-card   bg-secondary" >
 
                 <div className="card-icon">
-                  <img src="src\components\submenu\digital_assets\images\service-icon-2.png" width="30" height="30" loading="lazy"
+                  <img src={serviceicon2} width="30" height="30" loading="lazy"
                     alt="service icon" />
                 </div>
 
@@ -46,7 +47,7 @@ const Services = () => {
               <div className="service-card  bg-secondary" >
 
                 <div className="card-icon">
-                  <img src="src\components\submenu\digital_assets\images\service-icon-3.png" width="30" height="30" loading="lazy"
+                  <img src={serviceicon3} width="30" height="30" loading="lazy"
                     alt="service icon" />
                 </div>
 
@@ -61,7 +62,7 @@ const Services = () => {
               <div className="service-card  bg-secondary" >
 
                 <div className="card-icon">
-                  <img src="src\components\submenu\digital_assets\images\service-icon-4.png" width="30" height="30" loading="lazy"
+                  <img src={serviceicon4} width="30" height="30" loading="lazy"
                     alt="service icon" />
                 </div>
 
@@ -76,7 +77,7 @@ const Services = () => {
               <div className="service-card  bg-secondary" >
 
                 <div className="card-icon">
-                  <img src="src\components\submenu\digital_assets\images\service-icon-5.png" width="30" height="30" loading="lazy"
+                  <img src={serviceicon5} width="30" height="30" loading="lazy"
                     alt="service icon" />
                 </div>
 
@@ -91,7 +92,7 @@ const Services = () => {
               <div className="service-card  bg-secondary" >
 
                 <div className="card-icon">
-                  <img src="src\components\submenu\digital_assets\images\service-icon-6.png" width="30" height="30" loading="lazy"
+                  <img src={serviceicon7} width="30" height="30" loading="lazy"
                     alt="service icon" />
                 </div>
 
