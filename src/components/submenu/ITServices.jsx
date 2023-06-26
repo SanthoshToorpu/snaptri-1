@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Navbar'
 import ITstyles from "./ITstyles.css"
 import Footer from './Footer'
+import { aboutbanner, herobanner, service1, service2, service3, service4 } from './assets/images'
 // import { PlayCircleIcon } from "@heroicons/24/outline";
 
 
@@ -39,7 +40,7 @@ const ITServices = () => {
             </div>
 
           </div>
-         <img src="src\components\submenu\assets\images\hero-banner.png" width="650" height="650" alt="hero banner" className='rounded-full' />
+         <img src={herobanner} width="650" height="650" alt="hero banner" className='rounded-full' />
           
 
         </div>
@@ -49,7 +50,7 @@ const ITServices = () => {
       <section className="section about" id="about" aria-label="about" style={{padding : "100px"}}>
         <div className="container">
           
-            <img src="src\components\submenu\assets\images\about-banner.png" width="700"/>
+            <img src={aboutbanner} width="700"/>
           
 
           <div className="about-content">
@@ -112,7 +113,7 @@ const ITServices = () => {
               <div className="service-card has-after" style={{maxWidth:"80vh"}}>
 
                {/* cardicon className unde */}
-                  <img src="src\components\submenu\assets\images\service-1.png" width="140" height="140" loading="lazy"
+                  <img src={service1} width="140" height="140" loading="lazy"
                     alt="UI/UX Creative Design" className="img" />
                
 
@@ -139,7 +140,7 @@ const ITServices = () => {
               <div className="service-card has-after">
 
                 {/* <figure className="card-icon"> */}
-                  <img src="src\components\submenu\assets\images\service-2.png" width="140" height="140" loading="lazy" alt="App Development"
+                  <img src={service2} width="140" height="140" loading="lazy" alt="App Development"
                     className="img" />
                
 
@@ -166,7 +167,7 @@ const ITServices = () => {
               <div className="service-card has-after">
 
                 {/* <figure className="card-icon"> */}
-                  <img src="src\components\submenu\assets\images\service-3.png" width="140" height="140" loading="lazy"
+                  <img src={service3} width="140" height="140" loading="lazy"
                     alt="Professional Content Writer" className="img" />
                
 
@@ -193,7 +194,7 @@ const ITServices = () => {
               <div className="service-card has-after">
 
                 {/* <figure className="card-icon"> */}
-                  <img src="src\components\submenu\assets\images\service-4.png" width="140" height="140" loading="lazy" alt="Graphic Design"
+                  <img src={service4} width="140" height="140" loading="lazy" alt="Graphic Design"
                     className="img" />
                 
 
