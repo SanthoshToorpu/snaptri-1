@@ -1,7 +1,7 @@
 import React from 'react'
 import "../components/submenu/Digital_styles.css"
 import { serviceicon1, serviceicon2, serviceicon3, serviceicon4, serviceicon5, serviceicon7 } from './submenu/digital_assets/images'
-import { SectionWrapper } from '../hoc'
+
 const Services = () => {
   return (
     <section className="section service rounded-3xl bg-tertiary bg-opacity-0" id="service" aria-label="service">
@@ -109,4 +109,4 @@ const Services = () => {
   )
 }
 
-export default SectionWrapper(Services, "services")
+export default Services
