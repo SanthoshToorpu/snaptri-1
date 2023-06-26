@@ -11,9 +11,9 @@ const Services = () => {
           <h2 className="h2 section-title text-center text-secondary">Managing your business with our <span className="has-before">best
               service</span></h2>
 
-          <ul className="grid-list">
+          <ul className="grid gap-4 sm:grid-cols-2">
 
-            <li>
+            <li >
               <div className="service-card bg-secondary bg-opacity-50" >
               
                 <div className="card-icon">
