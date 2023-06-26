@@ -8,7 +8,7 @@ const Services = () => {
 
           <p className="section-subtitle has-before text-center">Our Services</p>
 
-          <h2 className="h2 section-title text-center text-white">Managing you business with our <span className="has-before">best
+          <h2 className="h2 section-title text-center text-white">Managing your business with our <span className="has-before">best
               service</span></h2>
 
           <ul className="grid-list p-10">
