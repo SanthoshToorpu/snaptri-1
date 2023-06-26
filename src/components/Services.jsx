@@ -8,13 +8,13 @@ const Services = () => {
 
           <p className="section-subtitle has-before text-center">Our Services</p>
 
-          <h2 className="h2 section-title text-center text-white">Managing your business with our <span className="has-before">best
+          <h2 className="h2 section-title text-center text-secondary">Managing your business with our <span className="has-before">best
               service</span></h2>
 
           <ul className="grid-list p-10">
 
             <li>
-              <div className="service-card bg-secondary" >
+              <div className="service-card bg-secondary bg-opacity-50" >
               
                 <div className="card-icon">
                   <img src={serviceicon1} width="30" height="30" loading="lazy"
@@ -22,14 +22,14 @@ const Services = () => {
                 </div>
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">Google Ads</a>
+                  <a href="#" className="card-title text-black">Google Ads</a>
                 </h3>
 
               </div>
             </li>
 
             <li>
-              <div className="service-card   bg-secondary" >
+              <div className="service-card bg-secondary bg-opacity-50" >
 
                 <div className="card-icon">
                   <img src={serviceicon2} width="30" height="30" loading="lazy"
@@ -37,14 +37,14 @@ const Services = () => {
                 </div>
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">Search Engine Optimization</a>
+                  <a href="#" className="card-title text-blackblack">Search Engine Optimization</a>
                 </h3>
 
               </div>
             </li>
 
             <li>
-              <div className="service-card  bg-secondary" >
+              <div className="service-card  bg-secondary bg-opacity-50" >
 
                 <div className="card-icon">
                   <img src={serviceicon3} width="30" height="30" loading="lazy"
@@ -52,14 +52,14 @@ const Services = () => {
                 </div>
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">Fast Customer Support</a>
+                  <a href="#" className="card-title text-black">Fast Customer Support</a>
                 </h3>
 
               </div>
             </li>
 
             <li>
-              <div className="service-card  bg-secondary" >
+              <div className="service-card  bg-secondary bg-opacity-50" >
 
                 <div className="card-icon">
                   <img src={serviceicon4} width="30" height="30" loading="lazy"
@@ -67,14 +67,14 @@ const Services = () => {
                 </div>
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">Data Analysis</a>
+                  <a href="#" className="card-title text-black">Data Analysis</a>
                 </h3>
 
               </div>
             </li>
 
             <li>
-              <div className="service-card  bg-secondary" >
+              <div className="service-card  bg-secondary bg-opacity-50" >
 
                 <div className="card-icon">
                   <img src={serviceicon5} width="30" height="30" loading="lazy"
@@ -82,14 +82,14 @@ const Services = () => {
                 </div>
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">Social Media Marketing.</a>
+                  <a href="#" className="card-title text-black">Social Media Marketing.</a>
                 </h3>
 
               </div>
             </li>
 
             <li>
-              <div className="service-card  bg-secondary" >
+              <div className="service-card  bg-secondary bg-opacity-50" >
 
                 <div className="card-icon">
                   <img src={serviceicon7} width="30" height="30" loading="lazy"
@@ -97,7 +97,7 @@ const Services = () => {
                 </div>
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">Search Engine Marketing/Pay-per-Click.</a>
+                  <a href="#" className="card-title text-black">Search Engine Marketing/Pay-per-Click.</a>
                 </h3>
 
               </div>
