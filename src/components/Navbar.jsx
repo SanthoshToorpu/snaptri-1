@@ -38,7 +38,7 @@ function ProfileMenu() {
         <Button
           variant="text"
           color="blue-gray"
-          className="flex items-center gap-1  rounded-full pt-1 pr-2 pl-0.5 lg:ml-auto capitalize"
+          className="flex items-center gap-1 rounded-full pt-1 pr-2 pl-0.5 lg:ml-auto capitalize"
         >
          <div className={`${
               active === "Services" ? "text-white" : "text-secondary"
@@ -87,7 +87,7 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   return (
     
-      <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-[#2b2b2b] bg-opacity-95 `}>
+      <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-[#2b2b2b] bg-opacity-50 `}>
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link to='/' className='flex items-center gap-2'
         onClick={()=>{

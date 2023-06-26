@@ -192,9 +192,9 @@
   
   .btn-secondary { --bg: var(--oxford-blue); }
   
-  :is(.btn-primary, .btn-secondary):is(:hover, :focus-visible) {
+  /* :is(.btn-primary, .btn-secondary):is(:hover, :focus-visible) {
     box-shadow: 0 0 0 2px var(--white), 0 0 0 5px var(--bg);
-  }
+  } */
   
   .btn-tertiary {
     --bg: var(--white);

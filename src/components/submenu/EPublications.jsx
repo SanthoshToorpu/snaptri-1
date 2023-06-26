@@ -17,11 +17,11 @@ const EPublications = () => {
           <div className="hero-content">
 
             <h1 className="headline-lg text-5xl" id="hero-label">
-              Better <span className="span">Ldasdasadadasda sse</span> Starts With Snodkd
+              Think <span className="span">E Publications</span><br /><span className="span">Think</span> Snaptri
             </h1>
 
             <p className="title-md has-before text-lg">
-              It is long established fact that reader distracted by the readable content.
+            ePublications: Digital content revolutionizing reading with convenience, accessibility, and interactivity.
             </p>
 
             <div className="btn-group " >
@@ -30,7 +30,7 @@ const EPublications = () => {
 
           </div>
 
-          <figure className="hero-banner">
+          <figure className="hero-banner" >
             <img src={Eherobanner} width="590" height="620" alt="hero banner" className="w-100" />
           </figure>
 
@@ -39,10 +39,10 @@ const EPublications = () => {
       <section className="section category has-bg-image" aria-labelledby="category-label">
         <div className="container">
 
-          <p className="title-sm text-center section-subtitle" id="category-label">Lorem, ipsum.</p>
+          <p className="title-sm text-center section-subtitle" id="category-label">Our Services</p>
 
           <h2 className="headline-md text-center section-title">
-            Lorem, ipsum. <span className="span has-after">lorem</span>
+            Dive into Our wide range of <span className="span has-after">Services</span>
           </h2>
 
           <ul className="grid-list">
@@ -51,7 +51,119 @@ const EPublications = () => {
               <div className="card category-card">
 
                 <div className="card-icon">
-                  <img src={category1 } width="72" height="72" loading="lazy"
+                  <img src="https://cdn-icons-png.flaticon.com/128/2143/2143406.png"  width="72" height="72" loading="lazy"
+                    alt="Data Science icon" />
+                </div>
+
+                <div>
+                  <h3 className="title-lg">Lorem, ipsum.</h3>
+
+                  <p className="title-sm">Lorem, ipsum.</p>
+                </div>
+
+                <a href="#" className="layer-link" aria-label="Data Science Category"></a>
+
+              </div>
+            </li>
+
+            <li>
+              <div className="card category-card">
+
+                <div className="card-icon">
+                  <img src={category2} width="72" height="72" loading="lazy"
+                    alt="UI/UX Design icon" />
+                </div>
+
+                <div>
+                  <h3 className="title-lg">Lorem, ipsum.</h3>
+
+                  <p className="title-sm">Lorem, ipsum.</p>
+                </div>
+
+                <a href="#" className="layer-link" aria-label="UI/UX Design Category"></a>
+
+              </div>
+            </li>
+
+            <li>
+              <div className="card category-card">
+
+                <div className="card-icon">
+                  <img src={category3} width="72" height="72" loading="lazy"
+                    alt="Modern Physics icon" />
+                </div>
+
+                <div>
+                  <h3 className="title-lg">Lorem, ipsum.</h3>
+
+                  <p className="title-sm">Lorem, ipsum.</p>
+                </div>
+
+                <a href="#" className="layer-link" aria-label="Modern Physics Category"></a>
+
+              </div>
+            </li>
+
+            <li>
+              <div className="card category-card">
+
+                <div className="card-icon">
+                  <img src={category4} width="72" height="72" loading="lazy"
+                    alt="Music Production icon" />
+                </div>
+
+                <div>
+                  <h3 className="title-lg">Lorem, ipsum.</h3>
+
+                  <p className="title-sm">Lorem, ipsum.</p>
+                </div>
+
+                <a href="#" className="layer-link" aria-label="Music Production Category"></a>
+
+              </div>
+            </li>
+
+            <li>
+              <div className="card category-card">
+
+                <div className="card-icon">
+                  <img src={category5} width="72" height="72" loading="lazy"
+                    alt="Data Science icon" />
+                </div>
+
+                <div>
+                  <h3 className="title-lg">Lorem, ipsum.</h3>
+
+                  <p className="title-sm">Lorem, ipsum.</p>
+                </div>
+
+                <a href="#" className="layer-link" aria-label="Data Science Category"></a>
+
+              </div>
+            </li>
+
+            <li>
+              <div className="card category-card">
+
+                <div className="card-icon">
+                  <img src={category6} width="72" height="72" loading="lazy" alt="Finances icon" />
+                </div>
+
+                <div>
+                  <h3 className="title-lg">Lorem, ipsum.</h3>
+
+                  <p className="title-sm">Lorem, ipsum.</p>
+                </div>
+
+                <a href="#" className="layer-link" aria-label="Finances Category"></a>
+
+              </div>
+            </li>
+            <li>
+              <div className="card category-card">
+
+                <div className="card-icon">
+                  <img src="https://cdn-icons-png.flaticon.com/128/2143/2143406.png"  width="72" height="72" loading="lazy"
                     alt="Data Science icon" />
                 </div>
 

@@ -205,7 +205,7 @@
     color: var(--white);
   }
   
-  .btn-primary:is(:hover, :focus) { background-color: var(--space-cadet-2); }
+  /* .btn-primary:is(:hover, :focus) { background-color: var(--space-cadet-2); } */
   
   .btn-secondary {
     background-color: var(--white);
