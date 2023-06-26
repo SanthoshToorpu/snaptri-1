@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>      
       <div className="relative z-0 bg-primary">
-      <video className="fixed h-full w-full object-cover opacity-90" autoPlay loop muted>
+      <video className="fixed h-full w-full object-cover opacity-90" style={{pointerEvents:"none"}} playsinline autoPlay loop muted>
         <source src={videobg} type="video/mp4"/>
         </video>
         <div className="bg-cover bg-no-repeat bg-center">
