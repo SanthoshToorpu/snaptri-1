@@ -20,7 +20,8 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className='bg-black bg-opacity-50 rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col hover:bg-opacity-100 hover:min-h-[290px]'
+        className='bg-black bg-opacity-50 rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col 
+        transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 hover:bg-opacity-100 duration-300 ...'
       >
         <img
           src={icon}

@@ -15,7 +15,7 @@ const Services = () => {
           <ul className="grid gap-4 sm:grid-cols-2">
 
             <li >
-              <div className="service-card bg-secondary bg-opacity-50" >
+              <div className="service-card bg-secondary bg-opacity-50 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 hover:bg-opacity-100 duration-300 ..." >
               
                 <div className="card-icon">
                   <img src={serviceicon1} width="30" height="30" loading="lazy"
@@ -30,7 +30,7 @@ const Services = () => {
             </li>
 
             <li>
-              <div className="service-card bg-secondary bg-opacity-50" >
+              <div className="service-card bg-secondary bg-opacity-50 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 hover:bg-opacity-100 duration-300 ..." >
 
                 <div className="card-icon">
                   <img src={serviceicon2} width="30" height="30" loading="lazy"
@@ -45,7 +45,7 @@ const Services = () => {
             </li>
 
             <li>
-              <div className="service-card  bg-secondary bg-opacity-50" >
+              <div className="service-card  bg-secondary bg-opacity-50 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 hover:bg-opacity-100 duration-300 ..." >
 
                 <div className="card-icon">
                   <img src={serviceicon3} width="30" height="30" loading="lazy"
@@ -60,7 +60,7 @@ const Services = () => {
             </li>
 
             <li>
-              <div className="service-card  bg-secondary bg-opacity-50" >
+              <div className="service-card  bg-secondary bg-opacity-50 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 hover:bg-opacity-100 duration-300 ..." >
 
                 <div className="card-icon">
                   <img src={serviceicon4} width="30" height="30" loading="lazy"
@@ -75,7 +75,7 @@ const Services = () => {
             </li>
 
             <li>
-              <div className="service-card  bg-secondary bg-opacity-50" >
+              <div className="service-card  bg-secondary bg-opacity-50 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 hover:bg-opacity-100 duration-300 ..." >
 
                 <div className="card-icon">
                   <img src={serviceicon5} width="30" height="30" loading="lazy"
@@ -90,7 +90,7 @@ const Services = () => {
             </li>
 
             <li>
-              <div className="service-card  bg-secondary bg-opacity-50" >
+              <div className="service-card  bg-secondary bg-opacity-50 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 hover:bg-opacity-100 duration-300 ..." >
 
                 <div className="card-icon">
                   <img src={serviceicon7} width="30" height="30" loading="lazy"

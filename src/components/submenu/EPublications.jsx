@@ -56,9 +56,9 @@ const EPublications = () => {
                 </div>
 
                 <div>
-                  <h3 className="title-lg">Lorem, ipsum.</h3>
+                  <h3 className="title-lg">eBook Conversion</h3>
 
-                  <p className="title-sm">Lorem, ipsum.</p>
+                  <p className="text-sm">Converting printed books or manuscripts into digital formats compatible with various e-readers and platforms.</p>
                 </div>
 
                 <a href="#" className="layer-link" aria-label="Data Science Category"></a>
@@ -75,9 +75,9 @@ const EPublications = () => {
                 </div>
 
                 <div>
-                  <h3 className="title-lg">Lorem, ipsum.</h3>
+                  <h3 className="title-lg">Digital Typesetting</h3>
 
-                  <p className="title-sm">Lorem, ipsum.</p>
+                  <p className="text sm">Professionally formatting and arranging content for e-books, ensuring a visually appealing and reader-friendly layout.</p>
                 </div>
 
                 <a href="#" className="layer-link" aria-label="UI/UX Design Category"></a>
@@ -94,9 +94,9 @@ const EPublications = () => {
                 </div>
 
                 <div>
-                  <h3 className="title-lg">Lorem, ipsum.</h3>
+                  <h3 className="title-lg">Cover Design</h3>
 
-                  <p className="title-sm">Lorem, ipsum.</p>
+                  <p className="text sm">Creating visually appealing and engaging covers for e-books to attract readers and convey the essence of the content.</p>
                 </div>
 
                 <a href="#" className="layer-link" aria-label="Modern Physics Category"></a>
@@ -113,9 +113,9 @@ const EPublications = () => {
                 </div>
 
                 <div>
-                  <h3 className="title-lg">Lorem, ipsum.</h3>
+                  <h3 className="title-lg">Content Editing</h3>
 
-                  <p className="title-sm">Lorem, ipsum.</p>
+                  <p className="text sm">Reviewing and revising e-book content for clarity, grammar, spelling, and overall quality improvement.</p>
                 </div>
 
                 <a href="#" className="layer-link" aria-label="Music Production Category"></a>
@@ -132,9 +132,9 @@ const EPublications = () => {
                 </div>
 
                 <div>
-                  <h3 className="title-lg">Lorem, ipsum.</h3>
+                  <h3 className="title-lg">Proofreading</h3>
 
-                  <p className="title-sm">Lorem, ipsum.</p>
+                  <p className="text sm">Conducting a thorough review of e-book manuscripts to eliminate errors, including typos, punctuation mistakes, and formatting inconsistencies.</p>
                 </div>
 
                 <a href="#" className="layer-link" aria-label="Data Science Category"></a>
@@ -150,9 +150,9 @@ const EPublications = () => {
                 </div>
 
                 <div>
-                  <h3 className="title-lg">Lorem, ipsum.</h3>
+                  <h3 className="title-lg">Illustration and Graphics</h3>
 
-                  <p className="title-sm">Lorem, ipsum.</p>
+                  <p className="text sm">Providing custom illustrations, graphics, or images that enhance the visual appeal and comprehension of the e-book.</p>
                 </div>
 
                 <a href="#" className="layer-link" aria-label="Finances Category"></a>
@@ -168,9 +168,9 @@ const EPublications = () => {
                 </div>
 
                 <div>
-                  <h3 className="title-lg">Lorem, ipsum.</h3>
+                  <h3 className="title-lg">Interactive Elements</h3>
 
-                  <p className="title-sm">Lorem, ipsum.</p>
+                  <p className="text sm"> Incorporating interactive features, such as hyperlinks, multimedia content, audio, or video, to enrich the reading experience.</p>
                 </div>
 
                 <a href="#" className="layer-link" aria-label="Data Science Category"></a>
@@ -187,9 +187,9 @@ const EPublications = () => {
                 </div>
 
                 <div>
-                  <h3 className="title-lg">Lorem, ipsum.</h3>
+                  <h3 className="title-lg">Metadata Optimization</h3>
 
-                  <p className="title-sm">Lorem, ipsum.</p>
+                  <p className="text sm">Optimizing the metadata of e-books, including title, description, keywords, and categories, to improve discoverability in online marketplaces and search engines.</p>
                 </div>
 
                 <a href="#" className="layer-link" aria-label="UI/UX Design Category"></a>
@@ -206,9 +206,9 @@ const EPublications = () => {
                 </div>
 
                 <div>
-                  <h3 className="title-lg">Lorem, ipsum.</h3>
+                  <h3 className="title-lg">Distribution Services</h3>
 
-                  <p className="title-sm">Lorem, ipsum.</p>
+                  <p className="text sm">Assisting with the distribution of e-books across various online platforms and retailers, ensuring wide availability to potential readers.</p>
                 </div>
 
                 <a href="#" className="layer-link" aria-label="Modern Physics Category"></a>
@@ -225,9 +225,9 @@ const EPublications = () => {
                 </div>
 
                 <div>
-                  <h3 className="title-lg">Lorem, ipsum.</h3>
+                  <h3 className="title-lg">Marketing and Promotion</h3>
 
-                  <p className="title-sm">Lorem, ipsum.</p>
+                  <p className="text sm">Developing marketing strategies and promotional campaigns to increase visibility, attract readers, and drive sales for e-books.</p>
                 </div>
 
                 <a href="#" className="layer-link" aria-label="Music Production Category"></a>
@@ -244,9 +244,9 @@ const EPublications = () => {
                 </div>
 
                 <div>
-                  <h3 className="title-lg">Lorem, ipsum.</h3>
+                  <h3 className="title-lg">Print-on-Demand (POD) Services</h3>
 
-                  <p className="title-sm">Lorem, ipsum.</p>
+                  <p className="text sm">Offering options to produce printed copies of e-books through print-on-demand technology, catering to readers who prefer physical books.</p>
                 </div>
 
                 <a href="#" className="layer-link" aria-label="Data Science Category"></a>
@@ -262,9 +262,9 @@ const EPublications = () => {
                 </div>
 
                 <div>
-                  <h3 className="title-lg">Lorem, ipsum.</h3>
+                  <h3 className="title-lg">Analytics and Reporting</h3>
 
-                  <p className="title-sm">Lorem, ipsum.</p>
+                  <p className="text sm">Providing detailed analytics and reporting on e-book sales, reader engagement, and other performance metrics, helping authors and publishers make informed decisions.</p>
                 </div>
 
                 <a href="#" className="layer-link" aria-label="Finances Category"></a>
@@ -274,7 +274,7 @@ const EPublications = () => {
 
           </ul>
 
-          <a href="#" className="btn btn-primary">Lorem, ipsum dolor.</a>
+          <a href="#" className="btn btn-primary">Get IN touch</a>
 
         </div>
       </section>
