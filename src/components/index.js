@@ -8,6 +8,8 @@
 // import Feedbacks from './Feedbacks';
 // import Contact from './Contact';
 
+import { VolumeLow } from "react-ionicons"
+
 // export {
 //   Hero,
 //   Navbar,
